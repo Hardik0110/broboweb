@@ -88,7 +88,7 @@ const Technologies = () => {
           <h2 className="text-3xl p-1">Technologies</h2>
         </div>
         <p className="italic text-black-300 mt-[-7px]">
-          Technologies I work with
+          Technologies We work with
         </p>
       </div>
       <div className="grid xl:grid-cols-7 md:grid-cols-5 sm:grid-cols-4 grid-cols-3 ">

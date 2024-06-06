@@ -53,7 +53,7 @@ const Projects = () => {
         <span className="border-b-2 text-4xl pink-text-gradient border-pink-600">
           Projects
         </span>
-        <div className="mt-5 text-xl text-neutral-200">
+        <div className="mt-5 text-xl text-black-200">
           Our Work and Projects
         </div>
       </div>

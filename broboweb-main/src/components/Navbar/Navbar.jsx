@@ -18,18 +18,18 @@ function Navbar() {
     }, []);
   return (
     <section className='navbar'>
-    <div className={` ${isTopOfPage ? "": "bg-[#FFC764]"} md:px-16 sm:px-8 z-40 w-full fixed top-0 pt-5 pb-5 transition duration-300`}>
+    <div className={` ${isTopOfPage ? "": "bg-[#FF9913]"} md:px-8 sm:px-8 z-40 w-full fixed top-0 pt-4 pb-2 transition duration-300`}>
         <nav className='flex items-center justify-between'>
-            <a className="logo w-12" href='/'>
-                <img  src='/logo.jpg' alt="logo" />
+            <a className="logo w-[80px] h-[80px]" href='/'>
+                <img  src='/logo.png' alt="logo" />
             </a>
             <div className={`nav-list lg:block absolute right-10 lg:relative lg:top-0 transition-all duration-100 ease-in ${isOpen ? "top-[50px]":"top-[-100px]"}`}>
                 <ul className={`flex text-maroon-300  ${isOpen? "flex-col space-y-5": "flex-row space-x-6"}`}>
-                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer'><a href="#about">About</a></li>
-                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer'><a href="#projects">Robots</a></li>
-                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer'><a href="#technologies">Technologies</a></li>
-                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer'><a href="#testimonials">Testimonials</a></li>
-                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer'><a href="#contact">Contact Us</a></li>
+                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer text-[20px] bold'><a href="#about">About</a></li>
+                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer text-[20px] bold'><a href="#projects">Robots</a></li>
+                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer text-[20px] bold'><a href="#technologies">Technologies</a></li>
+                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer text-[20px] bold'><a href="#testimonials">Testimonials</a></li>
+                    <li className='hover:text-[#21209C] transition-all duration-200 ease-in cursor-pointer text-[20px] bold'><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
             <div className='lg:hidden block'>

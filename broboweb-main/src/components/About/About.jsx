@@ -20,8 +20,8 @@ const About = () => {
     },
   };
   return (
-    <section id='about' className='relative xl:-mt-[30px] md:mt-[100px] mt-[10px] lg:w-10/12 w-11/12 mx-auto '>
-    <div className='grid md:grid-cols-2 grid-cols-1 md:w-full w-11/12 mx-auto'>
+    <section id='about' className='relative l:-mt-[50px] md:mt-[100px] mt-[20px] lg:w-10/12 w-11/12 mx-auto '>
+    <div className='grid md:grid-cols-2 grid-cols-1 md:w-full w-10/12 mx-auto'>
       <motion.div
         ref={ref}
         initial="hidden"
@@ -33,7 +33,7 @@ const About = () => {
           ease: [0, 0.71, 0.2, 1.01]
         }}
        className="image image-wrapper md:block hidden">
-        <img className='min-w-[600px]' src="/logo.jpg" alt="bharatrobotix logo" />
+        <img className='min-w-auto min-h-[400px]' src="/about logo.png" alt="bharatrobotix logo" />
       </motion.div>
       <Text />
       <Spots />
